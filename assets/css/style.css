@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Zen+Kaku+Gothic+Antique&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: 'Zen Kaku Gothic Antique',
+        sans-serif;
+    color: #3a3a3a;
+}
+
+
+/*Logo and Headings*/
+
+h1,
+h2 {
+    font-family: 'Playfair Display', serif;
+    text-transform: uppercase;
+    color: chocolate;
+}
+
+#logo {
+    float: left;
+    font-size: 250%;
+}
+
+/* navigation links */
+
+#menu {
+    font-size: 150%;
+}
+
+#menu,
+#logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid chocolate;
+}
+
+.active {
+    border-bottom: 1px solid chocolate;
+}
