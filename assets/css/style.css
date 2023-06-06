@@ -12,6 +12,9 @@ body {
     color: #3a3a3a;
 }
 
+header {
+    border: 1px solid chocolate;
+}
 
 /*Logo and Headings*/
 
@@ -66,5 +69,15 @@ h2 {
     background-size: cover;
     background-position: center center;
     overflow: hidden;
+    border: 2px solid chocolate;
 
+}
+
+/*map*/
+#map>iframe {
+    border: 2px solid chocolate;
+}
+
+#map h2 {
+    text-align: center
 }
