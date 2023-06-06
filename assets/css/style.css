@@ -56,3 +56,15 @@ h2 {
 .active {
     border-bottom: 1px solid chocolate;
 }
+
+/* Main Image*/
+
+#main-image {
+    height: 600px;
+    width: 100%;
+    background-image: url('../images/main-image.jpg');
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+
+}
