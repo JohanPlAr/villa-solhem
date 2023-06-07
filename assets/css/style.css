@@ -6,10 +6,16 @@
     border: none;
 }
 
+:root {
+    --primary-color: sandybrown;
+    --secondary-color: #56727C;
+
+}
+
 body {
     font-family: 'Zen Kaku Gothic Antique',
         sans-serif;
-    color: sandybrown;
+    color: var(--primary-color)
 }
 
 /*Logo and Headings*/
@@ -18,14 +24,14 @@ h1 {
     font-family: 'Zen Kaku Gothic Antique',
         sans-serif;
     text-transform: uppercase;
-    color: sandybrown;
+    color: var(--primary-color);
 }
 
 h2 {
     font-family: 'Zen Kaku Gothic Antique',
         sans-serif;
     text-transform: uppercase;
-    color: #56727C;
+    color: var(--secondary-color);
     text-align: center;
 }
 
@@ -47,9 +53,8 @@ nav>a {
 }
 
 nav {
-    border: 1px solid sandybrown;
-    background-color: #56727C;
-
+    border: 1px solid var(--primary-color);
+    background-color: var(--secondary-color);
     display: flex;
     justify-content: space-between;
     padding-left: 10px;
@@ -78,11 +83,11 @@ nav {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid sandybrown;
+    border-bottom: 1px solid var(--primary-color);
 }
 
 .active {
-    border-bottom: 1px solid sandybrown;
+    border-bottom: 1px solid var(--primary-color);
 }
 
 /* Main Image and Intro*/
@@ -94,7 +99,7 @@ nav {
     background-size: cover;
     background-position: center center;
     overflow: hidden;
-    border: 2px solid sandybrown;
+    border: 2px solid var(--primary-color);
     position: relative;
 
 
@@ -129,8 +134,8 @@ nav {
     padding: 10px;
     border-radius: 10px;
 
-    background: #56727C;
-    border: 2px solid sandybrown;
+    background: var(--secondary-color);
+    border: 2px solid var(--primary-color);
 
     font-size: 150%;
     line-height: 40px;
@@ -143,7 +148,7 @@ nav {
 
 /*map*/
 #map>iframe {
-    border: 2px solid sandybrown;
+    border: 2px solid var(--primary-color);
     border-radius: 10px;
     margin: auto;
     display: block;
@@ -154,8 +159,8 @@ nav {
 
 footer>ul {
     line-height: 75px;
-    border: 2px solid sandybrown;
-    background-color: #56727C;
+    border: 2px solid var(--primary-color);
+    background-color: var(--secondary-color);
 
 }
 
@@ -172,6 +177,6 @@ footer>ul {
 }
 
 #footer-contacts>li>a {
-    color: sandybrown;
+    color: var(--primary-color);
     font-size: 200%;
 }
