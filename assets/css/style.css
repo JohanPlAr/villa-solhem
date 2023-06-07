@@ -26,6 +26,7 @@ h2 {
         sans-serif;
     text-transform: uppercase;
     color: #56727C;
+    text-align: center;
 }
 
 .heading-margin {
@@ -51,7 +52,7 @@ nav {
 
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding-left: 10px;
 }
 
 #menu {
@@ -84,7 +85,7 @@ nav {
     border-bottom: 1px solid sandybrown;
 }
 
-/* Main Image and credo*/
+/* Main Image and Intro*/
 
 #main-image {
     height: 600px;
@@ -99,7 +100,7 @@ nav {
 
 }
 
-#credo {
+#intro {
     background-color: rgba(86, 114, 124, 0.7);
     height: 300px;
     width: 300px;
@@ -126,6 +127,7 @@ nav {
     height: 300px;
     width: 20%;
     padding: 10px;
+    border-radius: 10px;
 
     background: #56727C;
     border: 2px solid sandybrown;
@@ -142,6 +144,9 @@ nav {
 /*map*/
 #map>iframe {
     border: 2px solid sandybrown;
+    border-radius: 10px;
+    margin: auto;
+    display: block;
 }
 
 
