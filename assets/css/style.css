@@ -14,17 +14,19 @@ body {
 
 header {
     border: 1px solid chocolate;
+    background-color: #56727C;
+
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    background-color: #56727C;
 }
 
 /*Logo and Headings*/
 
 h1,
 h2 {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Zen Kaku Gothic Antique',
+        sans-serif;
     text-transform: uppercase;
     color: chocolate;
 }
@@ -35,6 +37,8 @@ header>a {
 
 #logo {
     font-size: 250%;
+    letter-spacing: 4px;
+    font-weight: 600;
 
 }
 
@@ -88,6 +92,29 @@ header>a {
     border: 2px solid chocolate;
 }
 
-#map h2 {
-    text-align: center
+
+/* footer */
+
+footer>ul {
+    line-height: 75px;
+    border: 2px solid chocolate;
+    background-color: #56727C;
+
+}
+
+#footer-contacts {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+
+}
+
+#footer-contacts>li {
+    list-style-type: none;
+}
+
+#footer-contacts>li>a {
+    color: chocolate;
+    font-size: 200%;
 }
