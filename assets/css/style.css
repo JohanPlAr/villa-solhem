@@ -94,18 +94,21 @@ nav {
     background-position: center center;
     overflow: hidden;
     border: 2px solid sandybrown;
+    position: relative;
 
 
 }
 
 #credo {
-    background-color: rgba(244, 164, 96, 0.6);
-    color: #56727C;
-    height: 150px;
+    background-color: rgba(86, 114, 124, 0.7);
+    height: 300px;
     width: 300px;
-    margin-top: 50px;
-    margin-right: 50px;
-
+    position: absolute;
+    right: 45px;
+    bottom: 45px;
+    padding: 10px;
+    font-size: 125%;
+    border-radius: 10px;
 
 }
 
