@@ -14,6 +14,10 @@ body {
 
 header {
     border: 1px solid chocolate;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #56727C;
 }
 
 /*Logo and Headings*/
@@ -25,24 +29,30 @@ h2 {
     color: chocolate;
 }
 
+header>a {
+    text-decoration: none;
+}
+
 #logo {
-    float: left;
     font-size: 250%;
+
 }
 
 /* navigation links */
 
 #menu {
     font-size: 150%;
+    display: flex;
+    align-items: center;
 }
 
 #menu,
 #logo {
     line-height: 75px;
+
 }
 
 #menu li {
-    float: right;
     list-style-type: none;
     margin-right: 30px;
 }
