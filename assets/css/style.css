@@ -38,7 +38,7 @@ h2 {
 }
 
 .heading-margin {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 header>a {
@@ -84,7 +84,7 @@ header>a {
     border-bottom: 1px solid sandybrown;
 }
 
-/* Main Image*/
+/* Main Image and credo*/
 
 #main-image {
     height: 600px;
@@ -94,6 +94,18 @@ header>a {
     background-position: center center;
     overflow: hidden;
     border: 2px solid sandybrown;
+
+
+}
+
+#credo {
+    background-color: rgba(244, 164, 96, 0.6);
+    color: #56727C;
+    height: 150px;
+    width: 300px;
+    margin-top: 50px;
+    margin-right: 50px;
+
 
 }
 
@@ -106,32 +118,17 @@ header>a {
 
 }
 
-#facilities {
-    height: 300px;
-    width: 20%;
-    padding: 10px;
-
-    background: #56727C;
-    border: 2px solid sandybrown;
-
-    font-size: 150%;
-
-}
-
+#facilities,
 #distance {
     height: 300px;
     width: 20%;
     padding: 10px;
 
-    border: 2px solid sandybrown;
     background: #56727C;
+    border: 2px solid sandybrown;
 
     font-size: 150%;
-}
-
-##distance>h3,
-#facilities>h3 {
-    margin-bottom: 40px;
+    line-height: 40px;
 }
 
 #distance>ul,
