@@ -134,7 +134,7 @@ nav {
 }
 
 
-/*vacation-details*/
+/*main section/vacation-details*/
 
 #vacation-details {
     background-image: url('../images/house-wide.jpg');
@@ -233,4 +233,40 @@ footer>ul {
 #footer-contacts>li>a {
     color: var(--primary-color);
     font-size: 200%;
+}
+
+/*Booking page*/
+
+#book-background {
+    height: 600px;
+    width: 100%;
+    background-image: url('../images/book-main.jpg');
+    background-size: cover;
+    background-position: center center;
+    overflow: hidden;
+    border: 2px solid var(--primary-color);
+    position: relative;
+}
+
+/*form*/
+#form {
+    color: var(--quaternary-color);
+    height: 450px;
+    width: 450px;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    padding: 10px;
+    font-size: 125%;
+    border-radius: 10px;
+    background-color: rgba(25, 126, 193, 0.7);
+}
+
+#form>h2 {
+    color: var(--quaternary-color);
+}
+
+.form-group {
+    display: flex;
+    justify-content: left;
 }
