@@ -104,6 +104,9 @@ nav {
 }
 
 /* Main Image and Intro*/
+#main {
+    margin-bottom: 100px;
+}
 
 #main-title {
     font-size: 250%;
@@ -237,6 +240,9 @@ footer>ul {
 
 #footer-contacts>li {
     list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
 }
 
 #footer-contacts>li>a {
