@@ -260,7 +260,8 @@ footer>ul {
 /*Booking page*/
 
 #book-background {
-    height: 750px;
+    margin-top: 75px;
+    height: 950px;
     width: 100%;
     background-image: url('../images/book-main.jpg');
     background-size: cover;
@@ -277,7 +278,7 @@ footer>ul {
     width: 550px;
     position: absolute;
     left: 10%;
-    top: 10%;
+    top: 15%;
     padding: 10px;
     font-size: 125%;
     border-radius: 10px;
