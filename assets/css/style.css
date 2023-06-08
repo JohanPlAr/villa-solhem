@@ -9,12 +9,15 @@
 :root {
     --primary-color: sandybrown;
     --secondary-color: #56727C;
+    --tertiary-color: #1169a4;
+
+    --primary-font-family: 'Zen Kaku Gothic Antique',
+        sans-serif;
 
 }
 
 body {
-    font-family: 'Zen Kaku Gothic Antique',
-        sans-serif;
+    font-family: var(--primary-font-family);
     color: var(--primary-color)
 }
 
@@ -30,7 +33,7 @@ h1 {
 h2 {
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
     text-transform: uppercase;
-    color: var(--secondary-color);
+    color: var(--tertiary-color);
     text-align: center;
 }
 
