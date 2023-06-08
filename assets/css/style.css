@@ -10,6 +10,7 @@
     --primary-color: sandybrown;
     --secondary-color: #56727C;
     --tertiary-color: rgb(25, 126, 193);
+    --quaternary-color: RGB(234, 227, 210);
 
 
     --primary-font-family: 'Zen Kaku Gothic Antique',
@@ -161,11 +162,12 @@ nav {
     border-radius: 10px;
 
     background: rgba(25, 126, 193, 0.7);
-    border: 2px solid var(--primary-color);
+
 
     font-size: 150%;
     font-weight: 700;
     line-height: 45px;
+    color: var(--quaternary-color);
 }
 
 #facilities>h3,
@@ -180,7 +182,7 @@ nav {
 
 #book-now>a {
     text-decoration: none;
-    color: RGB(234, 227, 210);
+    color: var(--quaternary-color);
 
 }
 
@@ -190,7 +192,7 @@ nav {
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    border: 4px solid RGB(234, 227, 210);
+
     font-size: 200%;
     font-weight: 700;
     line-height: 200px;
