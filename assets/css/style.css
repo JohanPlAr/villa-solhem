@@ -20,6 +20,10 @@
 
 }
 
+.top-container {
+    height: 75px;
+}
+
 body {
     font-family: var(--primary-font-family);
     color: var(--primary-color);
@@ -119,6 +123,7 @@ nav {
 }
 
 #main-image {
+
     z-index: 1;
     height: 600px;
     width: 100%;
@@ -260,7 +265,6 @@ footer>ul {
 /*Booking page*/
 
 #book-background {
-    margin-top: 75px;
     height: 950px;
     width: 100%;
     background-image: url('../images/book-main.jpg');
@@ -339,4 +343,56 @@ footer>ul {
 #buttons button:hover {
     color: var(--quaternary-color);
     border: 2px solid var(--quaternary-color);
+}
+
+/*gallery*/
+
+#image-mosaic {
+    margin-top: 25px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: repeat(3, 20%);
+    grid-auto-rows: 240px;
+}
+
+#card1 {
+    background-image: url('/assets/images/gallery/beach-tree.jpg')
+}
+
+#card2 {
+    background-image: url('/assets/images/gallery/bike.jpg')
+}
+
+#card3 {
+    background-image: url('/assets/images/gallery/fisherman-village.jpg')
+}
+
+#card4 {
+    background-image: url('/assets/images/gallery/runners.jpg')
+}
+
+#card5 {
+    background-image: url('/assets/images/gallery/sheep-island.jpg')
+}
+
+#card6 {
+    background-image: url('/assets/images/gallery/visby.jpg')
+}
+
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
 }
