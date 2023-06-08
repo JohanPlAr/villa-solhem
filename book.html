@@ -29,37 +29,37 @@
         </nav>
         <section id="book-main">
             <div id="book-background">
+
                 <div id="form">
                     <h2>Fill in your details</h2>
-                    <form id="book-form" action="" method="post">
-                        <div class="form-group">
+                    <div id="book-flexbox">
+                        <form id="book-form" action="" method="post">
                             <label for="a-date">Arrival</label>
                             <input id="a-date" type="date" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="d-date">Departure</label>
-                            <input id="d-date" type="date" required>
-                        </div>
-                        <div class="form-group">
+
                             <label for="f-name">First Name</label>
                             <input id="f-name" type="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="l-name">Last Name</label>
-                            <input id="l-name" type="name" required>
-                        </div>
-                        <div class="form-group">
                             <label for="email">Email Address</label>
                             <input id="email" type="email" required>
-                        </div>
-                        <div class="form-group">
+
+                            <button type="submit">Send Request</button>
+                        </form>
+                        <form id="book-form2" action="" method="post">
+                            <label for="d-date">Departure</label>
+                            <input id="d-date" type="date" required>
+
+                            <label for="l-name">Last Name</label>
+                            <input id="l-name" type="name" required>
+
                             <label for="tel">Phone Number</label>
                             <input id="tel" type="tel" required>
-                        </div>
-                        <button type="submit">Send Request</button>
+                            <button type="reset">Reset Form</button>
+                        </form>
+                    </div>
                 </div>
             </div>
-            </form>
+
+
         </section>
 
         <footer>

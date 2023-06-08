@@ -212,7 +212,7 @@ nav {
 /* footer */
 
 footer>ul {
-    line-height: 75px;
+    line-height: 50px;
     border: 2px solid var(--primary-color);
     background-color: var(--secondary-color);
 
@@ -252,21 +252,34 @@ footer>ul {
 #form {
     color: var(--quaternary-color);
     height: 450px;
-    width: 450px;
+    width: 600px;
     position: absolute;
-    left: 40%;
-    top: 20%;
+    left: 10%;
+    top: 10%;
     padding: 10px;
     font-size: 125%;
     border-radius: 10px;
     background-color: rgba(25, 126, 193, 0.7);
+    line-height: 30px;
+}
+
+#book-flexbox {
+    display: flex;
 }
 
 #form>h2 {
+    flex: none;
     color: var(--quaternary-color);
+    text-align: center;
 }
 
-.form-group {
-    display: flex;
-    justify-content: left;
+#book-form>label,
+#book-form2>label {
+    display: block;
+}
+
+#book-form>input,
+#book-form2>input {
+    width: 250px;
+    padding: 10px;
 }
