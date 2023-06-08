@@ -32,38 +32,53 @@
 
                 <div id="form">
                     <h2>Fill in your details</h2>
-                    <div id="book-flexbox">
-                        <form id="book-form" action="" method="post">
-                            <label for="a-date">Arrival</label>
-                            <input id="a-date" type="date" required>
 
-                            <label for="f-name">First Name</label>
-                            <input id="f-name" type="name" required>
-                            <label for="email">Email Address</label>
-                            <input id="email" type="email" required>
 
-                            <button type="submit">Send Request</button>
-                        </form>
-                        <form id="book-form2" action="" method="post">
-                            <label for="d-date">Departure</label>
-                            <input id="d-date" type="date" required>
+                    <form id="book-form" action="" method="post">
+                        <div id="book-flexbox">
+                            <div id="form-column1">
+                                <label for="a-date">Arrival</label>
+                                <input id="a-date" type="date" required>
 
-                            <label for="l-name">Last Name</label>
-                            <input id="l-name" type="name" required>
+                                <label for="f-name">First Name</label>
+                                <input id="f-name" type="name" required>
+                                <label for="email">Email Address</label>
+                                <input id="email" type="email" required>
+                                <label for="visitors">Visitors</label>
+                                <input id="visitors" type="number" min="1" max="10" required>
+                            </div>
 
-                            <label for="tel">Phone Number</label>
-                            <input id="tel" type="tel" required>
-                            <button type="reset">Reset Form</button>
-                        </form>
-                    </div>
+
+                            <div id="form-column2">
+                                <label for="d-date">Departure</label>
+                                <input id="d-date" type="date" required>
+
+                                <label for="l-name">Last Name</label>
+                                <input id="l-name" type="name" required>
+
+                                <label for="tel">Phone Number</label>
+                                <input id="tel" type="tel" required>
+                                <div id="buttons">
+                                    <div id="button-send">
+                                        <button type="send" value="send">Send</button>
+                                    </div>
+                                    <div id="button-reset">
+                                        <button type="reset" value="Reset">Reset</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
                 </div>
+
             </div>
 
 
         </section>
 
         <footer>
-            <h2 class="heading-margin">Contacts and Social Media</h2>
+            <h2 class=" heading-margin">Contacts and Social Media</h2>
             <ul id="footer-contacts">
                 <li>
                     <a href="mailto:villa-solhem@gmail.com"><i class="fa-solid fa-envelope"></i></a>
