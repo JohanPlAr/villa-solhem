@@ -22,7 +22,9 @@
 
 body {
     font-family: var(--primary-font-family);
-    color: var(--primary-color)
+    color: var(--primary-color);
+    background-color: RGB(234, 227, 210);
+
 }
 
 /*Logo and Headings*/
@@ -210,6 +212,12 @@ nav {
 
 
 /* footer */
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+
+}
 
 footer>ul {
     line-height: 50px;
@@ -219,6 +227,7 @@ footer>ul {
 }
 
 #footer-contacts {
+
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -238,7 +247,7 @@ footer>ul {
 /*Booking page*/
 
 #book-background {
-    height: 600px;
+    height: 750px;
     width: 100%;
     background-image: url('../images/book-main.jpg');
     background-size: cover;
