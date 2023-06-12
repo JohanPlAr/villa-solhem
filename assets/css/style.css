@@ -21,10 +21,6 @@
 
 }
 
-.top-container {
-    height: 75px;
-}
-
 body {
     font-family: var(--primary-font-family);
     color: var(--primary-color);
@@ -120,7 +116,7 @@ nav {
 /* Main Image and Intro*/
 #main {
 
-
+    margin-top: 75px;
     margin-bottom: 100px;
 }
 
@@ -271,6 +267,7 @@ footer>ul {
 
 
 #book-background {
+    margin-top: 75px;
     height: 950px;
     width: 100%;
     background-image: url('../images/book-hero.jpg');
@@ -414,51 +411,51 @@ footer>ul {
 }
 
 #card1 {
-    background-image: url('/assets/images/gallery/beach-tree.jpg')
+    background-image: url('../images/gallery/beach-tree.jpg')
 }
 
 #card2 {
-    background-image: url('/assets/images/gallery/bike.jpg')
+    background-image: url('../images/gallery/bike.jpg')
 }
 
 #card3 {
-    background-image: url('/assets/images/gallery/fisherman-village.jpg')
+    background-image: url('../images/gallery/fisherman-village.jpg')
 }
 
 #card4 {
-    background-image: url('/assets/images/gallery/runners.jpg')
+    background-image: url('../images/gallery/runners.jpg')
 }
 
 #card5 {
-    background-image: url('/assets/images/gallery/sheep-island.jpg')
+    background-image: url('../images/gallery/sheep-island.jpg')
 }
 
 #card6 {
-    background-image: url('/assets/images/gallery/cottage.jpg')
+    background-image: url('../images/gallery/cottage.jpg')
 }
 
 #card7 {
-    background-image: url('/assets/images/gallery/ferry.jpg')
+    background-image: url('../images/gallery/ferry.jpg')
 }
 
 #card8 {
-    background-image: url('/assets/images/gallery/goat.jpg')
+    background-image: url('../images/gallery/goat.jpg')
 }
 
 #card9 {
-    background-image: url('/assets/images/gallery/sunset.jpg')
+    background-image: url('../images/gallery/sunset.jpg')
 }
 
 #card10 {
-    background-image: url('/assets/images/gallery/beach-grass.jpg')
+    background-image: url('../images/gallery/beach-grass.jpg')
 }
 
 #card11 {
-    background-image: url('/assets/images/gallery/wind-mill.jpg')
+    background-image: url('../images/gallery/wind-mill.jpg')
 }
 
 #card12 {
-    background-image: url('/assets/images/gallery/visby.jpg')
+    background-image: url('../images/gallery/visby.jpg')
 }
 
 
