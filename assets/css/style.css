@@ -240,7 +240,7 @@ footer {
 
 footer>ul {
     line-height: 50px;
-    border: 2px solid var(--primary-color);
+    border: 1px solid var(--primary-color);
     background-color: var(--secondary-color);
 
 }
@@ -277,7 +277,6 @@ footer>ul {
     background-size: cover;
     background-position: center center;
     overflow: hidden;
-    border: 2px solid var(--primary-color);
     position: relative;
 }
 
@@ -335,6 +334,7 @@ footer>ul {
 #form-column2>input {
     width: 250px;
     padding: 10px;
+    border-radius: 5px;
 }
 
 #buttons {
@@ -355,7 +355,7 @@ footer>ul {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 #buttons input:hover {
@@ -368,9 +368,10 @@ footer>ul {
     border: 2px solid var(--quaternary-color);
 }
 
-#book-form-mobile {
+#buttons-mobile {
     display: none
 }
+
 
 /*gallery*/
 
@@ -449,7 +450,7 @@ footer>ul {
 }
 
 #card10 {
-    background-image: url('/assets/images/gallery/stones.jpg')
+    background-image: url('/assets/images/gallery/beach-grass.jpg')
 }
 
 #card11 {
@@ -521,45 +522,77 @@ footer>ul {
 
 }
 
-/*booking-page in tablet smartphone*/
+/*Booing-page Mobile*/
 @media screen and (max-width:768px) {
-    #book-headline {
 
-        width: 90%;
+    #buttons {
+        display: none;
+    }
+
+    #book-flexbox {}
+
+    #book-headline {
+        left: 10%;
+        width: 80%;
     }
 
     #book-headline>h1 {
         color: var(--quaternary-color);
-        font-size: 150%;
-        text-align: center;
-
-    }
-
-    #form h3 {
-        display: none
-    }
-
-    #book-form {
-        display: none
-    }
-
-    #book-form-mobile {
-
-        display: block;
+        font-size: 250%;
     }
 
 
-    #form-mobile {
-        color: var(--quaternary-color);
-        height: 900px;
-        width: 550px;
+    #form {
+        width: 80%;
         position: absolute;
         left: 10%;
         top: 35%;
-        padding: 10px;
-        font-size: 125%;
-        border-radius: 10px;
-        background-color: var(--quinary-color);
-        line-height: 30px;
     }
+
+    #form h3 {
+        color: var(--primary-color);
+        text-align: center;
+        font-size: 150%
+    }
+
+    #form-column1>label,
+    #form-column2>label {
+        display: block;
+
+    }
+
+    #form-column1 {
+        width: 45%;
+        border-radius: 5px;
+    }
+
+    #form-column2 {
+        width: 45%;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+    #buttons-mobile {
+        margin-left: 10px;
+        display: inline-block;
+    }
+
+    #buttons-mobile>input,
+    #buttons-mobile>button {
+        margin-top: 31px;
+        font-weight: 700;
+        font-size: 120%;
+        font-family: var(--secondary-font-family);
+        color: var(--primary-color);
+        background-color: var(--secondary-color);
+        border: 2px solid var(--primary-color);
+        padding: 4px 18px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+
+
 }
