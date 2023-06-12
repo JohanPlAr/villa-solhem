@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Zen+Kaku+Gothic+Antique&display=swap');
 
-* {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
-
 :root {
     --primary-color: sandybrown;
     --secondary-color: #56727C;
@@ -20,6 +14,15 @@
         serif;
 
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+
 
 body {
     font-family: var(--primary-font-family);
@@ -335,10 +338,10 @@ footer>ul {
 }
 
 #buttons {
-    flex: none;
+    display: flex;
+    justify-content: space-between;
 }
 
-#buttons>input,
 #buttons>button {
     margin-top: 31px;
     font-weight: 700;
@@ -349,7 +352,6 @@ footer>ul {
     border: 2px solid var(--primary-color);
     padding: 4px 18px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-size: 16px;
     border-radius: 5px;
@@ -365,9 +367,6 @@ footer>ul {
     border: 2px solid var(--quaternary-color);
 }
 
-#buttons-mobile {
-    display: none
-}
 
 
 /*gallery*/
@@ -462,7 +461,7 @@ footer>ul {
 /*hamburger*/
 @media screen and (max-width:768px) {
     .logo {
-        font-size: 175%;
+        font-size: 120%;
 
     }
 
@@ -514,7 +513,9 @@ footer>ul {
 
     .responsive-div {
         display: flex;
-        flex-direction: row-reverse;
+        flex-direction: column;
+        align-items: flex-end;
+
     }
 
 }
@@ -522,13 +523,19 @@ footer>ul {
 /*Booing-page Mobile*/
 @media screen and (max-width:768px) {
 
-    #buttons {
-        display: none;
+    #book-form {
+        margin-bottom: 100px;
     }
 
-    #book-flexbox {}
+    #book-flexbox {
+        flex-direction: column;
+        width: 100%;
+
+
+    }
 
     #book-headline {
+        top: 4%;
         left: 10%;
         width: 80%;
     }
@@ -543,7 +550,9 @@ footer>ul {
         width: 80%;
         position: absolute;
         left: 10%;
-        top: 35%;
+        top: 20%;
+        height: 625px;
+
     }
 
     #form h3 {
@@ -552,43 +561,18 @@ footer>ul {
         font-size: 150%
     }
 
-    #form-column1>label,
-    #form-column2>label {
-        display: block;
 
-    }
-
-    #form-column1 {
-        width: 45%;
+    #form-column1 input,
+    #form-column2 input {
+        width: 100%;
         border-radius: 5px;
+
+
+
     }
 
-    #form-column2 {
-        width: 45%;
-        padding: 10px;
-        border-radius: 5px;
-    }
-
-    #buttons-mobile {
-        margin-left: 10px;
-        display: inline-block;
-    }
-
-    #buttons-mobile>input,
-    #buttons-mobile>button {
-        margin-top: 31px;
-        font-weight: 700;
-        font-size: 120%;
-        font-family: var(--secondary-font-family);
-        color: var(--primary-color);
-        background-color: var(--secondary-color);
-        border: 2px solid var(--primary-color);
-        padding: 4px 18px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        border-radius: 5px;
+    #buttons {
+        justify-content: space-around;
     }
 
 
