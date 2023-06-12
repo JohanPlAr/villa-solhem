@@ -5,17 +5,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Villa Solhem vacation rental home in Gotland Tofta, Sweden">
+    <meta name="keywords" content="Multiple-bedroom house, vacation house rental, Sweden, Gotland, Tofta">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Booking Page</title>
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav class="navbar">
             <a href="index.html" aria-label="Visit Villa Solhem homepage">
-                <h1 id="logo">Villa Solhem <i class="fa-solid fa-sun"></i></h1>
+                <h1 class="logo">Villa Solhem <i class="fa-solid fa-sun"></i></h1>
             </a>
-            <ul id="menu">
+            <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
+            <input type="checkbox" id="nav-toggle" class="nav-toggle-input">
+            <ul class="menu">
                 <li>
                     <a href="index.html" aria-label="Visit Villa Solhem homepage">Home</a>
                 </li>
@@ -30,12 +34,17 @@
         <div class="top-container"></div>
         <section id="book-main">
             <div id="book-background">
+                <div id="book-headline">
+                    <h1>Make your Reservation</h1>
+                </div>
 
                 <div id="form">
+
+
                     <h2>Fill in your details</h2>
 
 
-                    <form id="book-form" action="" method="post">
+                    <form id="book-form" action="#" method="post">
                         <div id="book-flexbox">
                             <div id="form-column1">
                                 <label for="a-date">Arrival</label>

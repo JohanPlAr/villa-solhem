@@ -52,11 +52,11 @@ h3 {
 
 .heading-margin {
     margin-bottom: 15px;
-    margin-top: 30px;
+    margin-top: 15px;
 
 }
 
-#logo {
+.logo {
     font-size: 250%;
     letter-spacing: 4px;
     font-weight: 600;
@@ -81,35 +81,99 @@ nav {
     padding-left: 10px;
 }
 
-#menu {
+.menu {
     font-size: 150%;
     display: flex;
     align-items: right;
 }
 
-#menu,
-#logo {
+.menu,
+.logo {
     line-height: 75px;
 
 }
 
-#menu li {
+.menu li {
     list-style-type: none;
     margin-right: 30px;
 }
 
-#menu a {
+.menu a {
     text-decoration: none;
     color: inherit;
 }
 
-#menu a:hover {
+.menu a:hover {
     border-bottom: 1px solid var(--primary-color);
 }
 
 .active {
     border-bottom: 1px solid var(--primary-color);
 }
+
+.nav-toggle-input,
+.nav-toggle-label {
+    display: none
+}
+
+/*hamburger*/
+@media screen and (max-width:768px) {
+    .logo {
+        font-size: 175%;
+
+    }
+
+    .menu {
+        display: none;
+    }
+
+
+
+    .nav-toggle-input:checked~ul {
+        display: block;
+    }
+
+    .nav-toggle-input {
+        display: none
+    }
+
+    .nav-toggle-label {
+        margin-right: 30px;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .nav-toggle-label span,
+    .nav-toggle-label span::before,
+    .nav-toggle-label span::after {
+        height: 2px;
+        width: 2em;
+        border-radius: 2px;
+        background: var(--primary-color);
+        position: relative;
+    }
+
+    .nav-toggle-label span::before,
+    .nav-toggle-label span::after {
+        position: absolute;
+        content: '';
+    }
+
+    .nav-toggle-label span::before {
+        bottom: 8px;
+    }
+
+    .nav-toggle-label span::after {
+        top: 8px;
+    }
+
+    .responsive-div {
+        display: flex;
+    }
+
+}
+
 
 /* Main Image and Intro*/
 #main {
@@ -264,6 +328,7 @@ footer>ul {
 
 /*Booking page*/
 
+
 #book-background {
     height: 950px;
     width: 100%;
@@ -275,6 +340,23 @@ footer>ul {
     position: relative;
 }
 
+#book-headline {
+
+    background-color: rgba(25, 126, 193, 0.7);
+    width: 550px;
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#book-headline>h1 {
+    color: var(--quaternary-color);
+    font-size: 350%;
+    text-align: center;
+}
+
 /*form*/
 #form {
     color: var(--quaternary-color);
@@ -282,7 +364,7 @@ footer>ul {
     width: 550px;
     position: absolute;
     left: 10%;
-    top: 15%;
+    top: 35%;
     padding: 10px;
     font-size: 125%;
     border-radius: 10px;
@@ -298,7 +380,7 @@ footer>ul {
 
 #form>h2 {
     flex: none;
-    color: var(--quaternary-color);
+    color: var(--primary-color);
     text-align: center;
 }
 
@@ -347,12 +429,42 @@ footer>ul {
 
 /*gallery*/
 
+#container-70 {
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+#container-70 h2 {
+    font-size: 250%;
+}
+
 #image-mosaic {
+    --auto-grid-min-size: 300px;
+    margin-bottom: 100px;
     margin-top: 25px;
     display: grid;
     gap: 15px;
-    grid-template-columns: repeat(3, 20%);
-    grid-auto-rows: 240px;
+    grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+    grid-auto-rows: 300px;
+
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
 }
 
 #card1 {
@@ -376,23 +488,29 @@ footer>ul {
 }
 
 #card6 {
-    background-image: url('/assets/images/gallery/visby.jpg')
+    background-image: url('/assets/images/gallery/cottage.jpg')
 }
 
+#card7 {
+    background-image: url('/assets/images/gallery/ferry.jpg')
+}
 
+#card8 {
+    background-image: url('/assets/images/gallery/goat.jpg')
+}
 
-.card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
-    border-radius: 10px;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    padding: 0;
-    margin: 0;
+#card9 {
+    background-image: url('/assets/images/gallery/sunset.jpg')
+}
+
+#card10 {
+    background-image: url('/assets/images/gallery/stones.jpg')
+}
+
+#card11 {
+    background-image: url('/assets/images/gallery/wind-mill.jpg')
+}
+
+#card12 {
+    background-image: url('/assets/images/gallery/visby.jpg')
 }

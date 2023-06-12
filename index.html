@@ -6,26 +6,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="description" content="Villa Solhem vacation rental home in Gotland Tofta, Sweden">
+    <meta name="keywords" content="Multiple-bedroom house, vacation house rental, Sweden, Gotland, Tofta">
     <title>Villa Solhem</title>
 </head>
 
 <body>
     <header>
-        <nav>
+        <nav class="navbar">
             <a href="index.html" aria-label="Visit Villa Solhem homepage">
-                <h1 id="logo">Villa Solhem <i class="fa-solid fa-sun"></i></h1>
+                <h1 class="logo">Villa Solhem <i class="fa-solid fa-sun"></i></h1>
             </a>
-            <ul id="menu">
-                <li>
-                    <a href="index.html" aria-label="Visit Villa Solhem homepage" class="active">Home</a>
-                </li>
-                <li>
-                    <a href="gallery.html" aria-label="Visit Villa Solhem Gallery page">Gallery</a>
-                </li>
-                <li>
-                    <a href="book.html" aria-label="Visit Villa Solhem Booking page">Book Here!</a>
-                </li>
-            </ul>
+            <div class="responsive-div">
+                <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
+                <input type="checkbox" id="nav-toggle" class="nav-toggle-input">
+                <ul class="menu">
+                    <li>
+                        <a href="index.html" aria-label="Visit Villa Solhem homepage" class="active">Home</a>
+                    </li>
+                    <li>
+                        <a href="gallery.html" aria-label="Visit Villa Solhem Gallery page">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="book.html" aria-label="Visit Villa Solhem Booking page">Book Here!</a>
+                    </li>
+                </ul>
+            </div>
         </nav>
         <div class="top-container"></div>
         <div id="main-image">
