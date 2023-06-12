@@ -6,6 +6,7 @@
     --tertiary-color: rgb(25, 126, 193);
     --quaternary-color: RGB(234, 227, 210);
     --quinary-color: rgba(25, 126, 193, 0.7);
+    --senary-color: rgba(86, 114, 124, 0.7);
 
 
     --primary-font-family: 'Zen Kaku Gothic Antique',
@@ -143,8 +144,8 @@ nav {
 }
 
 #intro {
-    background-color: rgba(86, 114, 124, 0.7);
-    height: 300px;
+    background-color: var(--senary-color);
+    height: 350px;
     width: 300px;
     position: absolute;
     right: 45px;
@@ -177,17 +178,18 @@ nav {
 
 #facilities,
 #distance {
-    height: 300px;
+    height: 350px;
     width: 20%;
     margin-top: 15;
     padding: 10px;
     border-radius: 10px;
 
-    background: var(--quinary-color);
+    background: var(--senary-color);
     font-size: 150%;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 45px;
     color: var(--quaternary-color);
+    text-align: center;
 }
 
 #facilities>h3,
@@ -203,12 +205,13 @@ nav {
 #book-now>a {
     text-decoration: none;
     color: var(--quaternary-color);
+    text-align: center;
 
 }
 
 #book-now {
-    text-align: center;
-    background-color: var(--quinary-color);
+
+    background-color: var(--senary-color);
     height: 200px;
     width: 200px;
     border-radius: 50%;
@@ -216,6 +219,15 @@ nav {
     font-size: 200%;
     font-weight: 700;
     line-height: 200px;
+}
+
+#book-now:hover {
+    border: 2px solid var(--primary-color);
+    transform: scale(1.05);
+}
+
+#book-now a:hover {
+    color: var(--primary-color);
 }
 
 
@@ -228,6 +240,9 @@ nav {
     display: block;
 }
 
+#map>#map-iframe-mobile {
+    display: none;
+}
 
 /* footer */
 footer {
@@ -370,6 +385,9 @@ footer>ul {
 
 
 /*gallery*/
+#gallery-main {
+    margin-top: 75px;
+}
 
 #container-70 {
     width: 70%;
@@ -467,6 +485,7 @@ footer>ul {
 
     .menu {
         display: none;
+        text-align: right;
     }
 
 
@@ -520,7 +539,45 @@ footer>ul {
 
 }
 
-/*Booing-page Mobile*/
+/*Booking-page Mobile*/
+@media screen and (max-width:768px) {
+    #map>#map-iframe {
+        display: none;
+    }
+
+    #vacation-details {
+        flex-direction: column;
+        height: 900px;
+        width: 90%;
+    }
+
+    #distance,
+    #facilities {
+        width: 80%;
+    }
+
+    #book-now {
+        height: 150px;
+        width: 150px;
+        font-size: 150%;
+
+
+    }
+
+    #book-now>a {
+        line-height: 150px;
+
+
+    }
+
+    #map>#map-iframe-mobile {
+        display: block;
+    }
+
+
+}
+
+/*Booking-page Mobile*/
 @media screen and (max-width:768px) {
 
     #book-form {
