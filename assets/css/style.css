@@ -411,6 +411,10 @@ footer>ul {
 
 }
 
+#image-mosaic>div:hover {
+    transform: scale(1.3)
+}
+
 .card {
     display: flex;
     flex-direction: column;
@@ -425,6 +429,7 @@ footer>ul {
     background-repeat: no-repeat;
     padding: 0;
     margin: 0;
+    box-shadow: 2px 2px 5px var(--senary-color);
 }
 
 #card1 {
