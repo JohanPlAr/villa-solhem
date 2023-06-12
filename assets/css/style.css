@@ -116,65 +116,6 @@ nav {
     display: none
 }
 
-/*hamburger*/
-@media screen and (max-width:768px) {
-    .logo {
-        font-size: 175%;
-
-    }
-
-    .menu {
-        display: none;
-    }
-
-
-
-    .nav-toggle-input:checked~ul {
-        display: block;
-    }
-
-    .nav-toggle-input {
-        display: none
-    }
-
-    .nav-toggle-label {
-        margin-right: 30px;
-        display: flex;
-        align-items: center;
-
-    }
-
-    .nav-toggle-label span,
-    .nav-toggle-label span::before,
-    .nav-toggle-label span::after {
-        height: 2px;
-        width: 2em;
-        border-radius: 2px;
-        background: var(--primary-color);
-        position: relative;
-    }
-
-    .nav-toggle-label span::before,
-    .nav-toggle-label span::after {
-        position: absolute;
-        content: '';
-    }
-
-    .nav-toggle-label span::before {
-        bottom: 8px;
-    }
-
-    .nav-toggle-label span::after {
-        top: 8px;
-    }
-
-    .responsive-div {
-        display: flex;
-    }
-
-}
-
-
 /* Main Image and Intro*/
 #main {
 
@@ -513,4 +454,65 @@ footer>ul {
 
 #card12 {
     background-image: url('/assets/images/gallery/visby.jpg')
+}
+
+
+/*hamburger*/
+@media screen and (max-width:768px) {
+    .logo {
+        font-size: 175%;
+
+    }
+
+    .menu {
+        display: none;
+    }
+
+
+
+    .nav-toggle-input:checked~ul {
+        display: block;
+    }
+
+    .nav-toggle-input {
+        display: none
+    }
+
+    .nav-toggle-label {
+        margin-top: 38px;
+        margin-right: 30px;
+        display: flex;
+        align-items: flex-start;
+
+    }
+
+    .nav-toggle-label span,
+    .nav-toggle-label span::before,
+    .nav-toggle-label span::after {
+        height: 2px;
+        width: 2em;
+        border-radius: 2px;
+        background: var(--primary-color);
+        position: relative;
+    }
+
+    .nav-toggle-label span::before,
+    .nav-toggle-label span::after {
+        position: absolute;
+        content: '';
+    }
+
+    .nav-toggle-label span::before {
+        bottom: 8px;
+    }
+
+    .nav-toggle-label span::after {
+        top: 8px;
+    }
+
+    .responsive-div {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
 }
