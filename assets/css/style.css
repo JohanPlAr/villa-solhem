@@ -90,7 +90,7 @@ nav {
 
 .menu,
 .logo {
-    line-height: 75px;
+    line-height: 70px;
 
 }
 
@@ -117,19 +117,9 @@ nav {
     display: none
 }
 
-/* Main Image and Intro*/
-#main {
-
-    margin-top: 75px;
-    margin-bottom: 100px;
-}
-
-#main-title {
-    font-size: 250%;
-}
-
-#main-image {
-
+/* Hero and Intro*/
+#hero {
+    margin-top: 70px;
     z-index: 1;
     height: 600px;
     width: 100%;
@@ -140,7 +130,10 @@ nav {
     border: 2px solid var(--primary-color);
     position: relative;
 
+}
 
+#main-title {
+    font-size: 250%;
 }
 
 #intro {
@@ -156,8 +149,7 @@ nav {
 
 }
 
-
-/*main section/vacation-details*/
+/* Main*/
 
 #vacation-details {
     background-image: url('../images/house-wide.jpg');
@@ -256,7 +248,7 @@ footer {
 }
 
 footer>ul {
-    line-height: 50px;
+    line-height: 70px;
     border: 1px solid var(--primary-color);
     background-color: var(--secondary-color);
 
@@ -267,7 +259,7 @@ footer>ul {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding: 10px;
+
 
 }
 
@@ -288,7 +280,7 @@ footer>ul {
 
 
 #book-background {
-    margin-top: 75px;
+    margin-top: 70px;
     height: 950px;
     width: 100%;
     background-image: url('../images/book-hero.jpg');
