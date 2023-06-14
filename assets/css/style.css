@@ -230,6 +230,10 @@ nav {
 
 
 /*map*/
+#map {
+    margin-bottom: 100px;
+}
+
 #map>iframe {
     border: 2px solid var(--primary-color);
     border-radius: 10px;
@@ -397,7 +401,7 @@ footer>ul {
 }
 
 #note {
-    padding: 25px;
+    padding: 25px 40px;
     background-color: var(--quaternary-color);
     color: #36454F;
     font-family: var(--secondary-font-family);
@@ -446,11 +450,14 @@ footer>ul {
     grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
     grid-auto-rows: 300px;
 
+}
 
+#image-mosaic>div {
+    transition: transform 1s ease-in-out;
 }
 
 #image-mosaic>div:hover {
-    transform: scale(1.3)
+    transform: scale(1.3);
 }
 
 .card {
@@ -527,8 +534,8 @@ footer>ul {
     }
 
     .menu {
-        display: none;
         text-align: right;
+        display: none;
     }
 
 
@@ -584,11 +591,9 @@ footer>ul {
 
 }
 
-/*Booking-page Mobile*/
+/*Index main mobile*/
 @media screen and (max-width:1200px) {
-    #map>#map-iframe {
-        display: none;
-    }
+
 
     #vacation-details {
         flex-direction: column;
@@ -604,7 +609,7 @@ footer>ul {
     #book-now {
         height: 150px;
         width: 150px;
-        font-size: 150%;
+        font-size: 140%;
 
 
     }
@@ -619,6 +624,9 @@ footer>ul {
         display: block;
     }
 
+    #map>#map-iframe {
+        display: none;
+    }
 
 }
 
