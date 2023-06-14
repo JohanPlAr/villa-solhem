@@ -120,7 +120,7 @@ nav {
 /* Hero and Intro*/
 #hero {
     margin-top: 70px;
-    z-index: 1;
+
     height: 600px;
     width: 100%;
     background-image: url('../images/main-image.jpg');
@@ -213,6 +213,8 @@ nav {
     font-size: 200%;
     font-weight: 700;
     line-height: 200px;
+
+    cursor: pointer;
 }
 
 #book-now:hover {
@@ -345,6 +347,7 @@ footer>ul {
     width: 250px;
     padding: 10px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 #buttons {
@@ -365,6 +368,7 @@ footer>ul {
     display: inline-block;
     font-size: 16px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 #buttons input:hover {
@@ -624,14 +628,25 @@ footer>ul {
     #form-column2 input {
         width: 100%;
         border-radius: 5px;
-
-
-
     }
 
-    #buttons {
-        justify-content: space-around;
+    #a-date,
+    #d-date {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        cursor: pointer;
+        box-sizing: border-box;
     }
+
+}
+
+#buttons {
+    justify-content: space-around;
+}
 
 
 }
