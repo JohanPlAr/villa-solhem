@@ -319,7 +319,7 @@ footer>ul {
 /*form*/
 #form {
     color: var(--quaternary-color);
-    height: 350px;
+    height: auto;
     width: 550px;
     position: absolute;
     left: 10%;
@@ -391,7 +391,7 @@ footer>ul {
 /*Thank-you page*/
 #thank-you {
     color: var(--quaternary-color);
-    height: 400px;
+    height: auto;
     width: 550px;
     position: absolute;
     left: 10%;
@@ -684,6 +684,22 @@ footer>ul {
 
     #buttons {
         justify-content: space-around;
+    }
+
+}
+
+/* Thank-you mobile-page*/
+@media screen and (max-width:768px) {
+    #thank-you {
+        position: absolute;
+        margin: 0 auto;
+        width: 80%;
+        height: auto;
+
+    }
+
+    #note {
+        line-height: 1.2;
     }
 
 }
