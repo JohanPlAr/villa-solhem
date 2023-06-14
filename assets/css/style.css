@@ -219,13 +219,16 @@ nav {
 
 #book-now:hover {
     border: 2px solid var(--primary-color);
+
     transform: scale(1.1);
 }
 
 #book-now a:hover {
     color: var(--primary-color);
-    border-bottom: 1px solid var(--primary-color);
+    text-decoration: underline;
 }
+
+
 
 
 
