@@ -167,7 +167,7 @@ The site can be accessed by this [link](https://johanplar.github.io/villa-solhem
 
   - The Thank You Response page appears after submitting the booking form.
   - It contains the thank you message and the promise to get in touch with the applicant.
-  - It will automatically direct the user to the main page in 10 seconds.
+  - It will automatically direct the user to the main page in 15 seconds.
 
   - It has a footer and nav identical to the home page's.
 
@@ -257,7 +257,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
   ![Edge](documentation/browsers-edge.gif)
 
-- The website was checked by devtools implemented in Firefox and Chrome browsers.
+- The website was checked by devtools implemented in Edge and Chrome browsers.
 
   - Main Page:
 
@@ -267,10 +267,10 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
   ![Gallery Page](documentation/responsiveness-gallery-page.gif)
 
-  - Contact Page:
+  - Booking Page:
 
-  ![Contact Page](documentation/responsiveness-booking-page.gif)
+  ![Booking Page](documentation/responsiveness-booking-page.gif)
 
-  - Response Page:
+  - Thank You Page:
 
-  ![Response Page](documentation/responsiveness-thank-you-page.gif)
+  ![Thank You Page](documentation/responsiveness-thank-you-page.gif)
