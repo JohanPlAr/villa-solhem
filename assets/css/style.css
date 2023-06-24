@@ -444,10 +444,10 @@ footer>ul {
 }
 
 #image-mosaic {
+    display: grid;
     --auto-grid-min-size: 300px;
     margin-bottom: 100px;
     margin-top: 25px;
-    display: grid;
     gap: 15px;
     grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
     grid-auto-rows: 300px;
@@ -461,6 +461,7 @@ footer>ul {
 #image-mosaic>div:hover {
     transform: scale(1.3);
 }
+
 
 .card {
     display: flex;
@@ -632,6 +633,31 @@ footer>ul {
     }
 
 }
+
+/*Gallery-page Mobile*/
+@media screen and (max-width:768px) {
+
+    #container-70 {
+        width: 90%;
+    }
+
+    #container-70>h2 {
+        font-size: 200%
+    }
+
+
+    #image-mosaic {
+        display: grid;
+        --auto-grid-min-size: 250px;
+        margin-bottom: 100px;
+        margin-top: 25px;
+        gap: 15px;
+        grid-template-columns: repeat(auto-fill, minmax(var(--auto-grid-min-size), 1fr));
+        grid-auto-rows: 250px;
+
+    }
+}
+
 
 /*Booking-page Mobile*/
 @media screen and (max-width:768px) {
