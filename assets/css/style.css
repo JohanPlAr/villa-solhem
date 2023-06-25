@@ -590,8 +590,10 @@ footer>ul {
 
 }
 
+
 /*Index main mobile*/
 @media screen and (max-width:1200px) {
+
 
     #vacation-details {
         flex-direction: column;
@@ -626,6 +628,13 @@ footer>ul {
         display: none;
     }
 
+}
+
+/*Intro mobile 370px*/
+@media screen and (max-width:370px) {
+    #intro {
+        width: 290px;
+    }
 }
 
 /*Gallery-page Mobile*/
