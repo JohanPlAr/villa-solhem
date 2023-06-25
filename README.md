@@ -186,7 +186,7 @@ The site can be accessed by this [link](https://johanplar.github.io/villa-solhem
 - [Codeanywhere](https://app.codeanywhere.com/) was used as the main tool to write and edit code.
 - [Git](https://git-scm.com/) was used for the version control of the website.
 - [GitHub](https://github.com/) was used to host the code of the website.
-- [GIMP](https://www.gimp.org/) was used to make and resize images for the README file.
+- [Website Mockup Generator](https://websitemockupgenerator.com/) Was used to create the responsive Mockup png.
 
 ---
 
