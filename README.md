@@ -186,7 +186,8 @@ The site can be accessed by this [link](https://johanplar.github.io/villa-solhem
 - [Codeanywhere](https://app.codeanywhere.com/) was used as the main tool to write and edit code.
 - [Git](https://git-scm.com/) was used for the version control of the website.
 - [GitHub](https://github.com/) was used to host the code of the website.
-- [Website Mockup Generator](https://websitemockupgenerator.com/) Was used to create the responsive Mockup png.
+- [Website Mockup Generator](https://websitemockupgenerator.com/) Was used to create the responsive Mockup png for Readme file visualisation.
+- [ezgif](https://ezgif.com/) Was used to create gif animations for Readme file visualisation.
 
 ---
 
@@ -274,3 +275,33 @@ In order to confirm the correct functionality, responsiveness, and appearance:
   - Thank You Page:
 
   ![Thank You Page](documentation/responsiveness-thank-you-page.gif)
+
+* The website was checked with [Responsive Website Design Tester](https://responsivedesignchecker.com/).
+
+  - Desktop Screens:
+    ![Desktop 1920x1200](documentation/desktop-1920-1200.gif)
+    ![Desktop 1920x1080](documentation/desktop-1920-1080.gif)
+    ![Desktop 1680x1050](documentation/desktop-1680-1050.gif)
+    ![Desktop 1600x900](documentation/desktop-1600-900.gif)
+    ![Desktop 1440x900](documentation/desktop-1440-900.gif)
+    ![Desktop 1366x768](documentation/desktop-1366-768.gif)
+    ![Desktop 1024x800](documentation/desktop-1024-800.gif)
+    ![Desktop 1024x600](documentation/desktop-1024-600.gif)
+
+  - Tablet Screens:
+    ![Tablet Kindle 768x1024](documentation/tablet-kindle-768-1024.gif)
+    ![Tablet 1366x1024](documentation/tablet-1366-1024.gif)
+    ![Tablet 1024x768](documentation/tablet-1024-768.gif)
+    ![Tablet 800x1280](documentation/tablet-800-1280.gif)
+    ![Tablet 768x1024](documentation/tablet-768-1024.gif)  
+    ![Tablet 600x960](documentation/tablet-600-960.gif)
+
+  - Mobile Screens:
+
+  ![Mobile 320x480](documentation/mobile_320_480.gif)
+  ![Mobile 320x568](documentation/mobile_320_568.gif)
+  ![Mobile 360x640](documentation/mobile_360_640.gif)
+  ![Mobile 375x667](documentation/mobile_375_667.gif)
+  ![Mobile 384x640](documentation/mobile_384_640.gif)
+  ![Mobile 411x731](documentation/mobile_411_731.gif)
+  ![Mobile 414x736](documentation/mobile_414_736.gif)
