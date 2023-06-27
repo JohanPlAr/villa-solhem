@@ -85,6 +85,7 @@ nav {
 .menu {
     font-size: 150%;
     display: flex;
+    align-items: right;
 }
 
 .menu,
@@ -170,8 +171,7 @@ nav {
 #distance {
     height: 350px;
     width: 25%;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 15;
     padding: 10px;
     border-radius: 10px;
 
@@ -237,9 +237,11 @@ nav {
     border: 2px solid var(--primary-color);
     border-radius: 10px;
     margin: auto;
-    width: 70%;
-    height: 300px;
     display: block;
+}
+
+#map>#map-iframe-mobile {
+    display: none;
 }
 
 /* footer */
@@ -622,8 +624,12 @@ footer>ul {
 
     }
 
+    #map>#map-iframe-mobile {
+        display: block;
+    }
+
     #map>#map-iframe {
-        width: 90%;
+        display: none;
     }
 
 }
@@ -636,7 +642,7 @@ footer>ul {
     }
 
     #book-now {
-        font-size: 115%;
+        font-size: 125%;
     }
 }
 
@@ -686,7 +692,7 @@ footer>ul {
         font-size: 92%;
     }
 
-    #book-headline>h2 {
+    #book-headline>h1 {
         color: var(--quaternary-color);
         font-size: 250%;
     }

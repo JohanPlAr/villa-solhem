@@ -305,34 +305,144 @@ In order to confirm the correct functionality, responsiveness, and appearance:
   ![Mobile 411x731](documentation/mobile-411-731.gif)
   ![Mobile 414x736](documentation/mobile-414-736.gif)
 
-+ The functionality of the links in the website was checked as well by different users.
+- The functionality of the links in the website was checked as well by different users.
 
 ### Manual testing
 
-| feature | action | expected result | tested | passed | comments |
-| --- | --- | --- | --- | --- | --- |
-| Navbar | | | | | |
-| Home | Click on the "Home" link | The user is redirected to the main page | Yes | Yes | - |
-| Gallery | Click on the "Gallery" link | The user is redirected to the gallery page | Yes | Yes | - |
-| Contact | Click on the "Book!" link | The user is redirected to the booking page | Yes | Yes | - |
-| Footer | | | | | |
-| Email icon in the footer | Click on the Email icon | The user activates the mailto feature | Yes | Yes | - |
-| Instagram icon in the footer | Click on the Instagram icon | The user is redirected to the Instagram page | Yes | Yes | - |
-| Facebook icon in the footer | Click on the Facebook icon | The user is redirected to the Facebook page | Yes | Yes | - |
-| Twitter icon in the footer | Click on the Twitter icon | The user is redirected to the Twitter page | Yes | Yes | - |
-| Home page | | | | | |
-| "Book Now!" button in Main section | Click on the "Book Now!" button | The user is redirected to the booking page | Yes | Yes | - |
-| Gallery page | | | | | |
-| Image in the gallery | User hover the image | Image scales for better visibility | Yes | Yes | - |
-| Bookig page | | | | | |
-|Arrival | Enter arrival date | The arrival date is entered | Yes | Yes | If user doesn't enter arrival date, the error message appears |
-|Departure | Enter arrival date | The departure date is entered | Yes | Yes | If user doesn't enter departure date, the error message appears |
-| First name input | Enter the first name | The first name is entered | Yes | Yes | If user doesn't enter the first name, the error message appears |
-| Last name input | Enter the last name | The last name is entered | Yes | Yes | If user doesn't enter the last name, the error message appears |
-| Visitors | Enter number of visitors | Number of visitors is entered | Yes | Yes | If uder does'nt enter number of visistors, the error message appears|
-| Email input | Enter the email | The email is entered | Yes | Yes | If user doesn't enter the email, the error message appears. If user enters not valid email, the error message appears |
-| Phone Number | Enter the phone number | The phone number is entered | Yes | Yes | If user doesn't enter the phone number, the error message appears|
-| "Reset" button | Click on the "Reset" button | The entered form values resets| Yes | Yes | - |
-| "Submit" button | Click on the "Submit" button | The user is redirected to the thank you page | Yes | Yes | - |
-| Thank you page | | | | | |
-| Response message | The user will be automatically redirected to the home page after 15 seconds | The user is redirected to the home page | Yes | Yes | - |
+| feature                            | action                                                                      | expected result                              | tested | passed | comments                                                                                                              |
+| ---------------------------------- | --------------------------------------------------------------------------- | -------------------------------------------- | ------ | ------ | --------------------------------------------------------------------------------------------------------------------- |
+| Navbar                             |                                                                             |                                              |        |        |                                                                                                                       |
+| Home                               | Click on the "Home" link                                                    | The user is redirected to the main page      | Yes    | Yes    | -                                                                                                                     |
+| Gallery                            | Click on the "Gallery" link                                                 | The user is redirected to the gallery page   | Yes    | Yes    | -                                                                                                                     |
+| Contact                            | Click on the "Book!" link                                                   | The user is redirected to the booking page   | Yes    | Yes    | -                                                                                                                     |
+| Footer                             |                                                                             |                                              |        |        |                                                                                                                       |
+| Email icon in the footer           | Click on the Email icon                                                     | The user activates the mailto feature        | Yes    | Yes    | -                                                                                                                     |
+| Instagram icon in the footer       | Click on the Instagram icon                                                 | The user is redirected to the Instagram page | Yes    | Yes    | -                                                                                                                     |
+|                                    |
+| Facebook icon in the footer        | Click on the Facebook icon                                                  | The user is redirected to the Facebook page  | Yes    | Yes    | -                                                                                                                     |
+| Twitter icon in the footer         | Click on the Twitter icon                                                   | The user is redirected to the Twitter page   | Yes    | Yes    | -                                                                                                                     |
+| Home page                          |                                                                             |                                              |        |        |                                                                                                                       |
+| "Book Now!" button in Main section | Click on the "Book Now!" button                                             | The user is redirected to the booking page   | Yes    | Yes    | -                                                                                                                     |
+| Gallery page                       |                                                                             |                                              |        |        |                                                                                                                       |
+| Image in the gallery               | User hover the image                                                        | Image scales for better visibility           | Yes    | Yes    | -                                                                                                                     |
+| Bookig page                        |                                                                             |                                              |        |        |                                                                                                                       |
+| Arrival                            | Enter arrival date                                                          | The arrival date is entered                  | Yes    | Yes    | If user doesn't enter arrival date, the error message appears                                                         |
+| Departure                          | Enter arrival date                                                          | The departure date is entered                | Yes    | Yes    | If user doesn't enter departure date, the error message appears                                                       |
+| First name input                   | Enter the first name                                                        | The first name is entered                    | Yes    | Yes    | If user doesn't enter the first name, the error message appears                                                       |
+| Last name input                    | Enter the last name                                                         | The last name is entered                     | Yes    | Yes    | If user doesn't enter the last name, the error message appears                                                        |
+| Visitors                           | Enter number of visitors                                                    | Number of visitors is entered                | Yes    | Yes    | If uder does'nt enter number of visistors, the error message appears                                                  |
+| Email input                        | Enter the email                                                             | The email is entered                         | Yes    | Yes    | If user doesn't enter the email, the error message appears. If user enters not valid email, the error message appears |
+| Phone Number                       | Enter the phone number                                                      | The phone number is entered                  | Yes    | Yes    | If user doesn't enter the phone number, the error message appears                                                     |
+| "Reset" button                     | Click on the "Reset" button                                                 | The entered form values resets               | Yes    | Yes    | -                                                                                                                     |
+| "Submit" button                    | Click on the "Submit" button                                                | The user is redirected to the thank you page | Yes    | Yes    | -                                                                                                                     |
+| Thank you page                     |                                                                             |                                              |        |        |                                                                                                                       |
+| Response message                   | The user will be automatically redirected to the home page after 15 seconds | The user is redirected to the home page      | Yes    | Yes    | -                                                                                                                     |
+
+### Bugs
+
+- ##### Solved bugs
+
+  1. 
+
+  ***
+
+- ##### Unsolved bugs
+  - None.
+- ##### Mistakes
+  -
+---
+
+## Validator testing
+
+- ### HTML
+
+  #### Home Page
+
+  - No errors or warnings were found when passing through the official W3C validator.
+
+  ![Home Page HTML Validator](documentation/w3-validator-home-page.png)
+
+  #### Gallery Page
+
+  - No errors or warnings were found when passing through the official W3C validator.
+
+  ![Gallery Page HTML Validator](documentation/w3-validator-gallery-page.png)
+
+  #### Booking Page
+
+  - No errors or warnings were found when passing through the official W3C validator.
+
+  ![Contact Page HTML Validator](documentation/w3-validator-booking-page.png)
+
+  #### Thank You Page
+
+  - No errors or warnings were found when passing through the official W3C validator.
+
+  ![Response Page HTML Validator](documentation/w3-validator-thank-you-page.png)
+
+- ### CSS
+
+  No errors or warnings were found when passing through the official W3C (Jigsaw) validator except:
+  ![CSS Validator](documentation/w3-validator-css.png)
+
+  - 8 warnings regarding the use of _:root variables_: "Due to their dynamic nature, CSS variables are currently not statically checked".
+
+  ![CSS Validator errors](documentation/w3-validator-css-warnings.png)
+
+
+
+  + ### Accessibility and performance 
+    - Using lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
+    
+  #### Home page
+
+  ![Home Page Lighthouse](documentation/lighthouse_home_page.png)
+
+  #### Gallery page
+
+  ![Gallery Page Lighthouse](documentation/lighthouse_gallery_page.png)
+
+  #### Contact page
+
+  ![Contact Page Lighthouse](documentation/lighthouse_contact_page.png)
+
+  #### Response page
+
+  ![Response Page Lighthouse](documentation/lighthouse_response_page.png)
+
+---
+
+* #### Content
+
+  - Inspiration for the gallery hover effect came from the article "How to add a gradient to overlay to a background image using just CSS and HTML" published the website [Web Dev etc](https://webdevetc.com).
+  - Inspiration for the responsive hamburger navbar came from [Kevin Powell](https://www.youtube.com/user/KepowOb) on his YouTube channel.
+
+* #### Media
+
+  - [Hero image and Main Section image on homepage](Private photo: Johan Plym Arkert);
+
+  * All the rest of the images for the website were taken from [Pixabay](https://pixabay.com/).
+
+  - Gallery Page:
+
+    - [1st image](https://pixabay.com/photos/sweden-gotland-blue-sky-clouds-3960965);
+    - [2nd image](https://pixabay.com/photos/bike-gotland-high-cliff-mtb-see-1068495);
+    - [3rd image](https://pixabay.com/photos/port-coastal-gotland-3742871);
+    - [4th image](https://pixabay.com/photos/gotland-tofta-high-cliff-run-1068498);
+    - [5th image](https://pixabay.com/photos/gotland-sheep-island-sea-stack-sea-644589);
+    - [6th image](https://pixabay.com/photos/house-meadow-rural-village-5839811);
+    - [7th image](https://pixabay.com/photos/the-gotland-ferry-gotland-summer-1202114);
+    - [8th image](https://pixabay.com/photos/get-bagge-agriculture-animals-horn-2789828);
+    - [9th image](https://pixabay.com/photos/sunset-gotland-summer-sweden-4227191);
+    - [10th image](https://pixabay.com/photos/vassrugge-sand-dune-beach-gotland-655475);
+    - [11th image](https://pixabay.com/photos/gotland-sea-slite-sky-644597);
+    - [12th image](https://pixabay.com/photos/visby-gotland-visby-cathedral-644588).
+
+  - Booking and Thank You Page:
+    - [Background image](https://pixabay.com/photos/stone-tower-gotland-zen-meditation-1995051).
+
+* #### Tools
+
+  - [EzGif](https://ezgif.com) was used to resize GIF images.
+  - [cooler](https://coolors.co/) was used to create the color palette.
+  - [mockupGen](https://websitemockupgenerator.com/) was used for responsive mockup png.
