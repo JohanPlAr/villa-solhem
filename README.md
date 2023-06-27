@@ -289,7 +289,6 @@ In order to confirm the correct functionality, responsiveness, and appearance:
     ![Desktop 1024x600](documentation/desktop-1024-600.gif)
 
   - Tablet Screens:
-    ![Tablet Kindle 768x1024](documentation/tablet-kindle-768-1024.gif)
     ![Tablet 1366x1024](documentation/tablet-1366-1024.gif)
     ![Tablet 1024x768](documentation/tablet-1024-768.gif)
     ![Tablet 800x1280](documentation/tablet-800-1280.gif)
@@ -298,10 +297,42 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
   - Mobile Screens:
 
-  ![Mobile 320x480](documentation/mobile_320_480.gif)
-  ![Mobile 320x568](documentation/mobile_320_568.gif)
-  ![Mobile 360x640](documentation/mobile_360_640.gif)
-  ![Mobile 375x667](documentation/mobile_375_667.gif)
-  ![Mobile 384x640](documentation/mobile_384_640.gif)
-  ![Mobile 411x731](documentation/mobile_411_731.gif)
-  ![Mobile 414x736](documentation/mobile_414_736.gif)
+  ![Mobile 320x480](documentation/mobile-320-480.gif)
+  ![Mobile 320x568](documentation/mobile-320-568.gif)
+  ![Mobile 360x640](documentation/mobile-360-640.gif)
+  ![Mobile 375x667](documentation/mobile-375-667.gif)
+  ![Mobile 384x640](documentation/mobile-384-640.gif)
+  ![Mobile 411x731](documentation/mobile-411-731.gif)
+  ![Mobile 414x736](documentation/mobile-414-736.gif)
+
++ The functionality of the links in the website was checked as well by different users.
+
+### Manual testing
+
+| feature | action | expected result | tested | passed | comments |
+| --- | --- | --- | --- | --- | --- |
+| Navbar | | | | | |
+| Home | Click on the "Home" link | The user is redirected to the main page | Yes | Yes | - |
+| Gallery | Click on the "Gallery" link | The user is redirected to the gallery page | Yes | Yes | - |
+| Contact | Click on the "Book!" link | The user is redirected to the booking page | Yes | Yes | - |
+| Footer | | | | | |
+| Email icon in the footer | Click on the Email icon | The user activates the mailto feature | Yes | Yes | - |
+| Instagram icon in the footer | Click on the Instagram icon | The user is redirected to the Instagram page | Yes | Yes | - |
+| Facebook icon in the footer | Click on the Facebook icon | The user is redirected to the Facebook page | Yes | Yes | - |
+| Twitter icon in the footer | Click on the Twitter icon | The user is redirected to the Twitter page | Yes | Yes | - |
+| Home page | | | | | |
+| "Book Now!" button in Main section | Click on the "Book Now!" button | The user is redirected to the booking page | Yes | Yes | - |
+| Gallery page | | | | | |
+| Image in the gallery | User hover the image | Image scales for better visibility | Yes | Yes | - |
+| Bookig page | | | | | |
+|Arrival | Enter arrival date | The arrival date is entered | Yes | Yes | If user doesn't enter arrival date, the error message appears |
+|Departure | Enter arrival date | The departure date is entered | Yes | Yes | If user doesn't enter departure date, the error message appears |
+| First name input | Enter the first name | The first name is entered | Yes | Yes | If user doesn't enter the first name, the error message appears |
+| Last name input | Enter the last name | The last name is entered | Yes | Yes | If user doesn't enter the last name, the error message appears |
+| Visitors | Enter number of visitors | Number of visitors is entered | Yes | Yes | If uder does'nt enter number of visistors, the error message appears|
+| Email input | Enter the email | The email is entered | Yes | Yes | If user doesn't enter the email, the error message appears. If user enters not valid email, the error message appears |
+| Phone Number | Enter the phone number | The phone number is entered | Yes | Yes | If user doesn't enter the phone number, the error message appears|
+| "Reset" button | Click on the "Reset" button | The entered form values resets| Yes | Yes | - |
+| "Submit" button | Click on the "Submit" button | The user is redirected to the thank you page | Yes | Yes | - |
+| Thank you page | | | | | |
+| Response message | The user will be automatically redirected to the home page after 15 seconds | The user is redirected to the home page | Yes | Yes | - |
