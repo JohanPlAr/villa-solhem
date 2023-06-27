@@ -686,7 +686,7 @@ footer>ul {
         font-size: 92%;
     }
 
-    #book-headline>h1 {
+    #book-headline>h2 {
         color: var(--quaternary-color);
         font-size: 250%;
     }
