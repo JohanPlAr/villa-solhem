@@ -237,11 +237,8 @@ nav {
     border: 2px solid var(--primary-color);
     border-radius: 10px;
     margin: auto;
+    width: 70%;
     display: block;
-}
-
-#map>#map-iframe-mobile {
-    display: none;
 }
 
 /* footer */
@@ -624,12 +621,8 @@ footer>ul {
 
     }
 
-    #map>#map-iframe-mobile {
-        display: block;
-    }
-
     #map>#map-iframe {
-        display: none;
+        width: 90%;
     }
 
 }
