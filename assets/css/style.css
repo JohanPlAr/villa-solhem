@@ -540,6 +540,10 @@ footer>ul {
         display: none;
     }
 
+    .menu>li {
+        margin-right: 25px;
+    }
+
     .nav-toggle-input:checked~ul {
         display: block;
     }
@@ -550,7 +554,7 @@ footer>ul {
 
     .nav-toggle-label {
         margin-top: 35px;
-        padding-right: 35px;
+        padding-right: 25px;
         display: flex;
         align-items: flex-start;
         cursor: pointer;
@@ -630,10 +634,15 @@ footer>ul {
 
 }
 
-/*Intro mobile 370px*/
-@media screen and (max-width:370px) {
+/*Intro mobile and book now button 340px*/
+@media screen and (max-width:340px) {
+
     #intro {
         width: 290px;
+    }
+
+    #book-now {
+        font-size: 125%;
     }
 }
 
