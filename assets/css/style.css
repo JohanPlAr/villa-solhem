@@ -2,11 +2,11 @@
 
 :root {
     --primary-color: sandybrown;
-    --secondary-color: #56727C;
+    --secondary-color: #34454b;
     --tertiary-color: rgb(25, 126, 193);
     --quaternary-color: RGB(234, 227, 210);
-    --quinary-color: rgba(25, 126, 193, 0.7);
-    --senary-color: rgba(86, 114, 124, 0.7);
+    --quinary-color: rgba(25, 126, 193, 0.7); 
+    --senary-color: rgba(52, 69, 75, 0.7);
 
 
     --primary-font-family: 'Zen Kaku Gothic Antique',
@@ -145,9 +145,15 @@ nav {
     padding: 10px;
     font-size: 125%;
     border-radius: 10px;
+}
+#intro>h2 {
+    text-transform:none;
+    font-size:100%;
+    font-family: var(--secondary-font-family);
+    color: var(--primary-color);
+
 
 }
-
 /* Main*/
 
 #vacation-details {
@@ -237,12 +243,11 @@ nav {
     border: 2px solid var(--primary-color);
     border-radius: 10px;
     margin: auto;
+    width:70%;
+    height: 300px;
     display: block;
 }
 
-#map>#map-iframe-mobile {
-    display: none;
-}
 
 /* footer */
 footer {
@@ -304,11 +309,11 @@ footer>ul {
     top: 10%;
     padding: 10px;
     border-radius: 10px;
-}
+    }
 
 #book-headline>h2 {
     color: var(--quaternary-color);
-    font-size: 350%;
+    font-size: 250%;
     text-align: center;
 }
 
@@ -668,12 +673,9 @@ footer>ul {
 
     }
 
-    #map>#map-iframe-mobile {
-        display: block;
-    }
-
+ 
     #map>#map-iframe {
-        display: none;
+        width:90%;
     }
 
 }
