@@ -534,33 +534,7 @@ footer>ul {
         letter-spacing: 3px;
 
     }
-
-    .menu {
-        text-align: right;
-        display: none;
-    }
-
-    .menu>li {
-        margin-right: 25px;
-    }
-
-    .nav-toggle-input:checked~ul {
-        display: block;
-    }
-
-    .nav-toggle-input {
-        display: none
-    }
-
-    .nav-toggle-label {
-        margin-top: 35px;
-        padding-right: 25px;
-        display: flex;
-        align-items: flex-start;
-        cursor: pointer;
-
-    }
-
+    
     .nav-toggle-label span,
     .nav-toggle-label span::before,
     .nav-toggle-label span::after {
@@ -569,6 +543,7 @@ footer>ul {
         border-radius: 2px;
         background: var(--primary-color);
         position: relative;
+  
 
     }
 
@@ -586,10 +561,79 @@ footer>ul {
         top: 8px;
     }
 
+    .menu {
+        text-align: right;
+        transform: scale(0, 0);
+        transition: all 0.3s ease-out;
+        transform-origin:top;
+        height: 0;
+        display: block;
+    }
+
+    .menu>li {
+        margin-right: 25px;
+        opacity:0;
+        transition: opacity 150ms ease-in-out;
+    }
+    .nav-toggle-input:checked~.menu>li {
+        opacity:1;
+        transition: opacity 250ms ease-in-out 250ms;
+    
+    }
+
+    .nav-toggle-input:checked~.menu {
+        transform: scale(1, 1);
+        height: 250px;
+    }
+
+ .nav-toggle-input:checked~ label span{
+        transform: rotate(-45deg);
+         height: 4px;
+       width:1.5em;
+
+         }
+
+.nav-toggle-input:checked~ label span::after {
+        transform: rotate(90deg);
+        top: 0;
+        height: 4px;
+        width:1.5em;
+       
+    }
+
+     
+    .nav-toggle-input:checked~ label span::before{
+        opacity: 0;
+    }
+   
+
+    .nav-toggle-input {
+        display: none
+    }
+
+    .nav-toggle-label {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        position: absolute;
+        top: 25px;
+        right: 25px;
+        width: 2em;
+        height: 22px;
+
+    }
+
+
     .responsive-div {
         display: flex;
         flex-direction: column;
         align-items: flex-end;
+        position: relative;
+    }
+
+    .menu {
+        margin-top: 70px;
     }
 
 }
