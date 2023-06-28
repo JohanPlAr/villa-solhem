@@ -197,7 +197,7 @@ The site can be accessed by this [link](https://johanplar.github.io/villa-solhem
 
 ![Color pallet](documentation/color-pallet.png)
 
-- Blue color was used as the main color of the website to represent the evening the ocean.
+- Blue color was used as the main color of the website to represent the evening sky and the ocean.
 
 - Light Blue Color was used as a contrast to the darker blue to resemble clear blue mid day sky.
 
@@ -342,7 +342,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
 - ##### Solved bugs
 
-  1. 
+  1.
 
   ***
 
@@ -350,6 +350,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
   - None.
 - ##### Mistakes
   -
+
 ---
 
 ## Validator testing
@@ -389,11 +390,9 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
   ![CSS Validator errors](documentation/w3-validator-css-warnings.png)
 
-
-
-  + ### Accessibility and performance 
+  - ### Accessibility and performance
     - Using lighthouse in devtools I confirmed that the website is performing well, accessible and colors and fonts chosen are readable.
-    
+
   #### Home page
 
   ![Home Page Lighthouse](documentation/lighthouse_home_page.png)
@@ -412,12 +411,12 @@ In order to confirm the correct functionality, responsiveness, and appearance:
 
 ---
 
-* #### Content
+- #### Content
 
   - Inspiration for the gallery hover effect came from the article "How to add a gradient to overlay to a background image using just CSS and HTML" published the website [Web Dev etc](https://webdevetc.com).
   - Inspiration for the responsive hamburger navbar came from [Kevin Powell](https://www.youtube.com/user/KepowOb) on his YouTube channel.
 
-* #### Media
+- #### Media
 
   - [Hero image and Main Section image on homepage](Private photo: Johan Plym Arkert);
 
@@ -441,7 +440,7 @@ In order to confirm the correct functionality, responsiveness, and appearance:
   - Booking and Thank You Page:
     - [Background image](https://pixabay.com/photos/stone-tower-gotland-zen-meditation-1995051).
 
-* #### Tools
+- #### Tools
 
   - [EzGif](https://ezgif.com) was used to resize GIF images.
   - [cooler](https://coolors.co/) was used to create the color palette.

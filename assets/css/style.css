@@ -5,7 +5,7 @@
     --secondary-color: #34454b;
     --tertiary-color: rgb(25, 126, 193);
     --quaternary-color: RGB(234, 227, 210);
-    --quinary-color: rgba(25, 126, 193, 0.7); 
+    --quinary-color: rgba(25, 126, 193, 0.7);
     --senary-color: rgba(52, 69, 75, 0.7);
 
 
@@ -146,14 +146,16 @@ nav {
     font-size: 125%;
     border-radius: 10px;
 }
+
 #intro>h2 {
-    text-transform:none;
-    font-size:100%;
+    text-transform: none;
+    font-size: 100%;
     font-family: var(--secondary-font-family);
     color: var(--primary-color);
 
 
 }
+
 /* Main*/
 
 #vacation-details {
@@ -181,7 +183,7 @@ nav {
     padding: 10px;
     border-radius: 10px;
 
-    background: var(--senary-color);
+    background: var(--quinary-color);
     font-size: 150%;
     font-weight: 500;
     line-height: 45px;
@@ -201,7 +203,7 @@ nav {
 
 #book-now>a {
     text-decoration: none;
-    color: var(--quaternary-color);
+    color: var(--primary-color);
     text-align: center;
 
 
@@ -209,11 +211,11 @@ nav {
 
 #book-now {
 
-    background-color: var(--senary-color);
+    background-color: var(--quinary-color);
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    border: 2px solid var(--quaternary-color);
+    border: 2px solid var(--primary-color);
 
     font-size: 200%;
     font-weight: 700;
@@ -223,13 +225,13 @@ nav {
 }
 
 #book-now:hover {
-    border: 2px solid var(--primary-color);
+    border: 2px solid var(--quaternary-color);
 
     transform: scale(1.1);
 }
 
 #book-now a:hover {
-    color: var(--primary-color);
+    color: var(--quaternary-color);
     text-decoration: underline;
 }
 
@@ -243,7 +245,7 @@ nav {
     border: 2px solid var(--primary-color);
     border-radius: 10px;
     margin: auto;
-    width:70%;
+    width: 70%;
     height: 300px;
     display: block;
 }
@@ -309,7 +311,7 @@ footer>ul {
     top: 10%;
     padding: 10px;
     border-radius: 10px;
-    }
+}
 
 #book-headline>h2 {
     color: var(--quaternary-color);
@@ -539,7 +541,7 @@ footer>ul {
         letter-spacing: 3px;
 
     }
-    
+
     .nav-toggle-label span,
     .nav-toggle-label span::before,
     .nav-toggle-label span::after {
@@ -548,7 +550,7 @@ footer>ul {
         border-radius: 2px;
         background: var(--primary-color);
         position: relative;
-  
+
 
     }
 
@@ -570,20 +572,21 @@ footer>ul {
         text-align: right;
         transform: scale(0, 0);
         transition: all 0.3s ease-out;
-        transform-origin:top;
+        transform-origin: top;
         height: 0;
         display: block;
     }
 
     .menu>li {
         margin-right: 25px;
-        opacity:0;
+        opacity: 0;
         transition: opacity 150ms ease-in-out;
     }
+
     .nav-toggle-input:checked~.menu>li {
-        opacity:1;
+        opacity: 1;
         transition: opacity 250ms ease-in-out 250ms;
-    
+
     }
 
     .nav-toggle-input:checked~.menu {
@@ -591,26 +594,26 @@ footer>ul {
         height: 250px;
     }
 
- .nav-toggle-input:checked~ label span{
+    .nav-toggle-input:checked~label span {
         transform: rotate(-45deg);
-         height: 4px;
-       width:1.5em;
+        height: 4px;
+        width: 1.5em;
 
-         }
+    }
 
-.nav-toggle-input:checked~ label span::after {
+    .nav-toggle-input:checked~label span::after {
         transform: rotate(90deg);
         top: 0;
         height: 4px;
-        width:1.5em;
-       
+        width: 1.5em;
+
     }
 
-     
-    .nav-toggle-input:checked~ label span::before{
+
+    .nav-toggle-input:checked~label span::before {
         opacity: 0;
     }
-   
+
 
     .nav-toggle-input {
         display: none
@@ -673,9 +676,9 @@ footer>ul {
 
     }
 
- 
+
     #map>#map-iframe {
-        width:90%;
+        width: 90%;
     }
 
 }
