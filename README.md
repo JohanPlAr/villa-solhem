@@ -487,6 +487,7 @@ In your IDE Terminal, type the following command to clone my repository:
 
 ## Acknowledgments
 
-- [Code Institute](https://codeinstitute.net/) Slack community members for their support and help.
-- [Kevin Powell](https://www.youtube.com/user/KepowOb) for his CSS tutorials.
+- [Code Institute](https://codeinstitute.net/) For the Code Institute course material in html and CSS and for the Slack community members for their support and help.
+- [Kevin Powell](https://www.youtube.com/user/KepowOb) for his CSS tutorials in general and more specifically for the hamburger code.
 - [Aleksei Konovalov](https://github.com/lexach91) my Code Institue tutor who inspired me to push myself further.
+- [LogRocket Ibadehin Mojeed](https://blog.logrocket.com/responsive-image-gallery-css-flexbox/) for the inspirational gallery code.
