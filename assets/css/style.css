@@ -130,7 +130,7 @@ nav {
 
 }
 
-#main-title {
+.main-title {
     font-size: 250%;
 }
 
@@ -178,7 +178,7 @@ nav {
 #distance {
     height: 350px;
     width: 25%;
-    margin-top: 15;
+
     padding: 10px;
     border-radius: 10px;
 
